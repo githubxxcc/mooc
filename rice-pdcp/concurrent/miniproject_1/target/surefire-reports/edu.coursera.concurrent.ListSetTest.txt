@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: edu.coursera.concurrent.ListSetTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 403.203 sec <<< FAILURE! - in edu.coursera.concurrent.ListSetTest
+testCoarseGrainedLockingRepeatingLarge(edu.coursera.concurrent.ListSetTest)  Time elapsed: 103.705 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Expected remove throughput to remain similar (at least 0.600000x) with locks, but found 0.507861x
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at edu.coursera.concurrent.ListSetTest.testCoarseGrainedLockingHelper(ListSetTest.java:182)
+	at edu.coursera.concurrent.ListSetTest.testCoarseGrainedLockingRepeatingLarge(ListSetTest.java:69)
+
