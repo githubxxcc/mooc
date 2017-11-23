@@ -1,10 +1,5 @@
- ## Java Parrallism Notes
+# Java Parrallism Notes
 
-
-Table of Contents
-=================
-
-* [Java Parrallism Notes](#java-parrallism-notes)
     * [1\. RecrusiveAction (Regular Parralell Task, Project 1)](#1-recrusiveaction-regular-parralell-task-project-1)
       * [How to use?](#how-to-use)
     * [2\. RecursiveTask &lt;T&gt; (Project 2)](#2-recursivetask-t-project-2)
