@@ -1,8 +1,10 @@
  ## Java Parrallism Notes
 
+[TOC]
 
 
-#### 1. RecrusiveAction (Regular Parralell Task)
+
+#### 1. RecrusiveAction (Regular Parralell Task, Project 1)
 
 ##### How to use?
 
@@ -70,7 +72,7 @@ class SomeParrallelTaskManager{
 
 
 
-#### 2. RecursiveTask \<T>
+#### 2. RecursiveTask \<T> (Project 2)
 
 - Implemented the `java.concurrent.Future` interface
 - Different from `RecursiveAction` , its `join()` also returns the asyncrhonous computed value. 
@@ -218,7 +220,7 @@ forAll(g: [0: k]){
 
 
 
-#### 5. Barriers and Phasers 
+#### 5. Barriers and Phasers (Project 4)
 
 In my understanding, Java phasers is similar to Golang's channel in parrallelism control. A phaser allows one to explicitly control the parallelism in multiple ways. 
 
@@ -392,7 +394,7 @@ forall(i : [0:k]){
 
 
 
-##### 
+
 
 #### 6. Future tasks 
 
