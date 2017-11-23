@@ -1,4 +1,4 @@
-# Java Parrallism Notes
+# Java Parallelism Notes
 
     * [1\. RecrusiveAction (Regular Parralell Task, Project 1)](#1-recrusiveaction-regular-parralell-task-project-1)
       * [How to use?](#how-to-use)
