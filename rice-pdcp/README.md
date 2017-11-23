@@ -1,6 +1,24 @@
  ## Java Parrallism Notes
 
-[TOC]
+
+Table of Contents
+=================
+
+* [Java Parrallism Notes](#java-parrallism-notes)
+    * [1\. RecrusiveAction (Regular Parralell Task, Project 1)](#1-recrusiveaction-regular-parralell-task-project-1)
+      * [How to use?](#how-to-use)
+    * [2\. RecursiveTask &lt;T&gt; (Project 2)](#2-recursivetask-t-project-2)
+    * [3\. Parrallel Stream (project 3)](#3-parrallel-stream-project-3)
+    * [4\. Parrallel loops (project 3)](#4-parrallel-loops-project-3)
+      * [4\.1 Chunking](#41-chunking)
+    * [5\. Barriers and Phasers (Project 4)](#5-barriers-and-phasers-project-4)
+      * [5\.1 Idea of tiering](#51-idea-of-tiering)
+      * [5\.2 Split\-phase barriers:](#52-split-phase-barriers)
+      * [5\.3 Split arrive and await barriers:](#53-split-arrive-and-await-barriers)
+      * [5\.5 Fuzzy phase barriers for granular control](#55-fuzzy-phase-barriers-for-granular-control)
+      * [5\.6 Pipelining](#56-pipelining)
+    * [6\. Future tasks](#6-future-tasks)
+
 
 
 
