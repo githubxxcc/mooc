@@ -19,3 +19,10 @@ Learning Repo for all the MOOCs
       * [5\.6 Pipelining](rice-pdcp/#56-pipelining)
    * [6\. Future tasks](rice-pdcp/#6-future-tasks)
 
+
+
+## MIT: 6.824 Distributed System
+  * [Raft](mit-distributed/#raft)
+    * [Fault Tolerance:](mit-distributed/#fault-tolerance)  
+  * [GFS](mit-distributed/#gfs)
+
