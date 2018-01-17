@@ -1,6 +1,28 @@
----
-typora-copy-images-to: ../assets/img
----
+Table of Content
+===============
+* [Raft](#raft)
+    * [Features](#features)
+    * [Paxos](#paxos)
+    * [Design](#design)
+    * [Configuration](#configuration)
+    * [Log Compaciton](#log-compaciton)
+    * [Implementation Details](#implementation-details)
+  * [Fault Tolerance:](#fault-tolerance)
+    * [At least once](#at-least-once)
+      * [What it means?](#what-it-means)
+      * [What is bad?](#what-is-bad)
+    * [At most once](#at-most-once)
+      * [What it means?](#what-it-means-1)
+      * [What is this "at most once"?](#what-is-this-at-most-once)
+      * [What can be the issues of it?](#what-can-be-the-issues-of-it)
+* [GFS](#gfs)
+    * [Design](#design-1)
+    * [Consistency](#consistency)
+    * [System](#system)
+    * [Record Append](#record-append)
+    * [Snapshot](#snapshot)
+    * [Master](#master)
+
 
 ## Raft
 
